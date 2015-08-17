@@ -1,29 +1,40 @@
 <meta charset="utf-8" />
 
-<li>init: 저장소 만들기</li>
-<li>commit: 버전 만들기</li>
+<li>
+    init: 저장소 만들기
+    <ul>
+		<li>만들어진 저장소는 디렉토리이며 해당 디렉토리 안에 ".git"라는 이름의 숨은 디렉토리가 추가된다.</li>
+    </ul>
+</li>
+<li>commit: 현재의 변화 상태로 새 버전 만들기</li>
 <li>discard: commit 전 변경 사항 되돌리기: 가장 최근 commit된 버전으로 되돌리기</li>
 <li>
-	reset: 기존에 commit된 특정 버전으로 되돌리면서 중간에 존재하는 버전 삭제
-	<ul>
-		<li>hard: 현재 commit 전 변경사항 discard 포함</li>
-		<li>mixed: 현재 commit 전 변경사항은 유지하고 reset 시점 이후에 commit된 버전만 삭제</li>
-	</ul>
+    reset: 기존에 commit된 특정 버전으로 되돌리면서 중간에 존재하는 버전 삭제
+    <ul>
+        <li>hard: 현재 commit 전 변경사항 discard 포함</li>
+        <li>mixed: 현재 commit 전 변경사항은 유지하고 reset 시점 이후에 commit된 버전만 삭제</li>
+    </ul>
 </li>
 <li>
-	revert: 기존에 commit된 특정 버전과 같은 새 버전 commit하는데
-	commit 전 변화가 존재하니 이런 메시지 출력
-	<pre>
-git -c diff.mnemonicprefix=false -c core.quotepath=false revert --no-edit a8940fe030a0ff5421522cc83882e13598313461
-error: Your local changes to the following files would be overwritten by merge:
-	git 설명서.html
-Please, commit your changes or stash them before you can merge.
-Aborting
+    revert: 기존에 commit된 특정 버전과 같은 새 버전 commit하는데
+    <ul>
+        <li>
+            commit 전 변화가 존재하니 이런 메시지 출력
+            <pre>
+        git -c diff.mnemonicprefix=false -c core.quotepath=false revert --no-edit a8940fe030a0ff5421522cc83882e13598313461
+        error: Your local changes to the following files would be overwritten by merge:
+            git 설명서.html
+        Please, commit your changes or stash them before you can merge.
+        Aborting
 
 
 
 
-Completed with errors, see above.
-	</pre>
-	revert된 버전을 다시 revert할 수도 있음
+        Completed with errors, see above.
+            </pre>
+        </li>
+        <li>
+            revert된 버전을 다시 revert할 수도 있음
+        </li>
+    </ul>
 </li>
