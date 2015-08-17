@@ -9,5 +9,18 @@
 	</ul>
 </li>
 <li>
-	revert: 기존에 commit된 특정 버전과 같은 새 버전 commit하면서 commit 전 변화는 discard?
+	revert: 기존에 commit된 특정 버전과 같은 새 버전 commit하는데
+	commit 전 변화가 존재하니 이런 메시지 출력
+	<pre>
+git -c diff.mnemonicprefix=false -c core.quotepath=false revert --no-edit a8940fe030a0ff5421522cc83882e13598313461
+error: Your local changes to the following files would be overwritten by merge:
+	git 설명서.html
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+
+
+
+Completed with errors, see above.
+	</pre>
 </li>
