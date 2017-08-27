@@ -1,6 +1,6 @@
 # Git 연습
 ---
-* 마크다운 설명서 보기: http://dongheegy.github.io/training/
+* 마크다운 설명서 보기: http://dongheegy.github.io/training
 * 프로젝트 소스코드 보기: https://github.com/dongheegy/training
 ---
 ## Git 사용 설명서
