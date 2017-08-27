@@ -9,7 +9,7 @@
 ---
 ## 역사
 ### 2017.08.27
-Github 페이지를 설정했다. 이제 http://dongheegy.github.io/training 로 접속하면 렌더링 된 마크다운 파일을 볼 수 있다. 참고로 기존의 Github 소스파일은 https://github.com/dongheegy/training 에서 볼 수 있다.
+Github 페이지를 설정했다. 이제 <http://dongheegy.github.io/training> 로 접속하면 렌더링 된 마크다운 파일을 볼 수 있다. 참고로 기존의 Github 소스파일은 <https://github.com/dongheegy/training> 에서 볼 수 있다.
 ### 2017.08.24
 image 디렉토리를 만들었다. 필요한 그림파일이 있을 때, 이곳에 저장할 생각이다.
 ### 2017.08.19
