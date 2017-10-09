@@ -5,6 +5,7 @@
 ## Git 사용 설명서
 1. [Git 지역 저장소 생성](01.startGit.md): Git 버전으로 관리되지 않았던 디렉토리를 새로운 Git 지역 저장소로 만드는 방법
 1. [Github 원격 저장소 복제](02.makeCloneOfGithub.md): Github에서 관리되고 있는 버전을 복사해서 Git 지역 저장소로 만드는 방법, 해당 Github 버전은 새로 생성된 지역 저장소의 원격 저장소로 자동설정된다.
+1. [지역 저장소와 원격 저장소의 동기화](03.syncWithRemoteRepository.md): 원격 저장소가 설정된 Git 버전 작업 전후 수행해야 할 저장소 사이의 동기화 방법
 
 ---
 ## 역사
