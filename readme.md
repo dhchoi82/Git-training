@@ -10,7 +10,7 @@
 ---
 ## 역사
 ### 2018.01.14
-Github username을 변형하였다. username을 변경하니 Github 저장소와 페이지의 URL이 바뀌었고, 그것 때문에 로컬 저장소의 remote 설정을 수정하고, Github 페이지를 연결하던 소스파일을 모두 수정해야 했다. URL을 함부로 바꾸면 문제가 많으니 주의해야 할 것 같다.
+Github username을 변경하였다. username을 변경하니 Github 저장소와 페이지의 URL이 바뀌었고, 그것 때문에 로컬 저장소의 remote 설정을 수정하고, Github 페이지를 연결하던 소스파일을 모두 수정해야 했다. URL을 함부로 바꾸면 문제가 많으니 주의해야 할 것 같다.
 ### 2017.08.27
 Github 페이지를 설정했다. 이제 [http://dhchoi82.github.io/Git-training](http://dhchoi82.github.io/Git-training) 로 접속하면 렌더링 된 마크다운 파일을 볼 수 있다. 참고로 기존의 Github 소스파일은 [https://github.com/dhchoi82/Git-training](https://github.com/dhchoi82/Git-training) 에서 볼 수 있다.
 ### 2017.08.24
